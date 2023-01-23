@@ -1,0 +1,95 @@
+/* display background color black on navbar scroll */
+
+.navbar {
+    background-color: black;
+}
+
+/* hero background image */
+.bgimage {
+    height:1050px;
+    background: url('imgs/bgimg.JPG');
+    background-size:cover;
+    position:relative; 
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 72px;
+}
+.hero_desc {
+    font-size: 32px;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#contact {
+    padding-bottom: 64px;
+}
+/* about section image css */
+#about,#skills,#academics,#portfolio,#contact {
+    background: url('/portfolio/imgs/sectionbg.jpg');
+    background-size:cover;
+    position:relative;
+    border-top: 10px solid black;
+    border-radius: 15px;
+}
+.imageAboutPage {
+    width: 100%;
+}
+
+/* skills section css */
+.skillsText.card {
+    align-items: center;
+    height: auto;
+    cursor: pointer;
+  }
+.skillsText.card-body {
+    align-items: center;
+    height: auto;
+    cursor: pointer;
+}
+
+.icons1, .icons2, .icons3,.icons4{
+    display:flex;
+    margin-top: 50px;
+    
+}
+.icon1{
+    height: 100px;
+    font-size: 50px; 
+ 
+}
+.card-title {
+    text-align: center;
+}
+
+ .card:hover, .acad:hover { 
+    border: 1px solid #008000;
+}
+
+/* academics section css */
+.stitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
