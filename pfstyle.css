@@ -29,6 +29,7 @@
 #contact {
     padding-bottom: 64px;
 }
+
 /* about section image css */
 #about,#skills,#academics,#portfolio,#contact {
     background: url('/portfolio/imgs/sectionbg.jpg');
