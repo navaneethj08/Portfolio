@@ -32,7 +32,7 @@
 
 /* about section image css */
 #about,#skills,#academics,#portfolio,#contact {
-    background: url('/portfolio/imgs/sectionbg.jpg');
+    background: url('/Portfolio/imgs/sectionbg.jpg');
     background-size:cover;
     position:relative;
     border-top: 10px solid black;
