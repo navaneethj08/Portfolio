@@ -34,6 +34,7 @@
 #about, #skills, #academics, #portfolio, #contact {
     background: url('imgs/sectionbg.jpg');
     background-size:cover;
+    width: 100%;
     position:relative;
     border-top: 10px solid black;
     border-radius: 15px;
