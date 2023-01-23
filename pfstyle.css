@@ -7,7 +7,7 @@
 /* hero background image */
 .bgimage {
     height:1050px;
-    background: url('Portfolio/imgs/bgimg.JPG');
+    background: url('/imgs/bgimg.JPG');
     background-size:cover;
     position:relative; 
 }
@@ -32,7 +32,7 @@
 
 /* about section image css */
 #about, #skills, #academics, #portfolio, #contact {
-    background: url('Portfolio/imgs/sectionbg.JPG');
+    background: url('/imgs/sectionbg.JPG');
     background-size:cover;
     position:relative;
     border-top: 10px solid black;
