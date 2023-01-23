@@ -9,6 +9,7 @@
     height:1050px;
     background: url('imgs/bgimg.jpeg');
     background-size:cover;
+    width:100%;
     position:relative; 
 }
 /* text css above hero image*/
